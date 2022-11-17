@@ -4,7 +4,7 @@
  * @tree: pointer to the root node of the tree to count the number of nodes
  * Return: Number of nodes or 0
  */
-size_t binary_tree_nodes(binary_tree_t *tree)
+size_t binary_tree_nodes(const binary_tree_t *tree);
 {
 	size_t nodes = 0;
 
